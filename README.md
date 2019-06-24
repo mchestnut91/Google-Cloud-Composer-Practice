@@ -1,1 +1,3 @@
-# random-projects
+# Apache Airflow/Google Cloud Composer
+
+The purpose of this project was to research and build a prototype of a Google Cloud Composer (Apache Airflow) workflow. I built a demo workflow that ingests a CSV of wine data, loads the data into BigQuery, queries the data to retrieve the highest rated wines, exports the results to a storage bucket, and sends the user a text message when the process is complete. I also wrote a script to trigger the workflow to run whenever a file is added to a designated cloud storage bucket. Next steps for this project are to implement this type of solution to orchestrate the creation/updating of a real application with a more complicated ETL process.
